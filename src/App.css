@@ -1,0 +1,299 @@
+/* Estilos generales de la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el nombre del proyecto guardado */
+.saved-project-name {
+  text-align: center;
+  font-size: 24px; /* Tamaño de fuente grande */
+  font-weight: bold; /* Texto en negritas */
+  margin-top: 20px; /* Espacio en la parte superior */
+}
+
+/* Estilos para componentes específicos */
+
+/* Estilos para el componente ProjectNameForm */
+.ProjectNameForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ProjectNameForm h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.ProjectNameForm label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.ProjectNameForm input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ProjectNameForm button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ProjectNameForm button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos para el componente SprintPlanning */
+.SprintPlanning {
+  max-width: 800px;
+  margin: 0 auto;
+
+  /* Estilos para la cabecera del calendario */
+  .rbc-toolbar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rbc-toolbar-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  /* Estilos para los botones de navegación del calendario */
+  .rbc-btn-group {
+    button {
+      background-color: transparent;
+      color: #007bff;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      padding: 5px 10px;
+      margin: 0 5px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #0056b3;
+        color: white;
+      }
+    }
+  }
+
+  /* Estilos para las celdas del calendario */
+  .rbc-month-view {
+    /* Estilos para las celdas de los días */
+    .rbc-month-row {
+      display: flex;
+
+      .rbc-header {
+        font-weight: bold;
+      }
+
+      .rbc-date-cell {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 2px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #007bff;
+          color: white;
+        }
+      }
+    }
+
+    /* Estilos para los eventos en el calendario */
+    .rbc-event {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 2px 5px;
+      font-size: 0.9rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+/* Nuevo estilo para el botón de generar y descargar archivo */
+.SprintPlanning .download-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.SprintPlanning .download-button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos específicos para el calendario en el componente SprintPlanning */
+.SprintPlanning .custom-calendar {
+  max-width: 800px;
+  margin: 0 auto;
+
+  /* Estilos para la cabecera del calendario */
+  .rbc-toolbar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .rbc-toolbar-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  /* Estilos para los botones de navegación del calendario */
+  .rbc-btn-group {
+    button {
+      background-color: transparent;
+      color: #007bff;
+      border: none;
+      cursor: pointer;
+      font-size: 1.2rem;
+      padding: 5px 10px;
+      margin: 0 5px;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: #0056b3;
+        color: white;
+      }
+    }
+  }
+
+  /* Estilos para las celdas del calendario */
+  .rbc-month-view {
+    /* Estilos para las celdas de los días */
+    .rbc-month-row {
+      display: flex;
+
+      .rbc-header {
+        font-weight: bold;
+      }
+
+      .rbc-date-cell {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 2px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #007bff;
+          color: white;
+        }
+
+        /* Ajusta los estilos para los eventos dentro de las celdas */
+        .rbc-event {
+          margin: 2px; /* Agrega un margen para separar los eventos */
+          padding: 2px 5px; /* Ajusta el espacio interno de los eventos */
+          border-radius: 3px; /* Ajusta el radio de los bordes de los eventos */
+          font-size: 0.9rem; /* Ajusta el tamaño de fuente de los eventos */
+
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* Nuevo estilo para el botón de generar y descargar archivo */
+.SprintPlanning .download-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.SprintPlanning .download-button:hover {
+  background-color: #45a049;
+}
+
+
+.custom-calendar {
+  min-height: 400px; /* Ajusta el valor según tus necesidades */
+}
+
+/* Agrega estos estilos para el formulario en tu archivo App.css */
+.SprintPlanning form {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.SprintPlanning form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.SprintPlanning form input[type="date"],
+.SprintPlanning form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.SprintPlanning form button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SprintPlanning form button[type="button"]:hover {
+  background-color: #0056b3;
+}
