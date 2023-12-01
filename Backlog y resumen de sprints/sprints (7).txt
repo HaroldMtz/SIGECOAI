@@ -1,0 +1,328 @@
+Sprint 1:
+Fecha de inicio: 2023-09-18
+Fecha de finalización: 2023-09-25
+Tareas: Sprint 1: Captura de Información Básica
+
+Fecha de inicio: 2023-09-18  
+Fecha de finalización: 2023-09-25
+
+Objetivo del Sprint: Realizar la captura de información básica de cada trabajador.
+
+Tareas:
+
+1. Captura del código de cada trabajador.
+
+Descripción: 
+- Se recogerá el código único asignado a cada trabajador.
+
+Criterios de Aceptación:
+- El código se almacena correctamente en la base de datos.
+- El formulario de captura muestra mensajes de error para entradas inválidas.
+
+2. Captura del nombre de cada trabajador.
+
+Descripción:
+- Se implementará el nombre completo de cada trabajador.
+
+Criterios de Aceptación:
+- El nombre se registra correctamente sin pérdida de información.
+- Se valida que se ingresen nombres válidos.
+
+3. Captura de puesto de cada trabajador.
+
+Descripción:
+- Se agregarán opciones desplegables para seleccionar el puesto de cada trabajador.
+
+Criterios de Aceptación:
+- El puesto se asocia correctamente con el trabajador.
+- La interfaz muestra los puestos de manera clara y comprensible.
+
+Revisión del Sprint:
+
+Logros:
+- Se completó con éxito la captura de información básica.
+- Todos los criterios de aceptación fueron alcanzados.
+
+Retrospectiva:
+- Se identificó la necesidad de mejorar la validación de datos en futuros sprints.
+
+
+
+Sprint 2:
+Fecha de inicio: 2023-09-26
+Fecha de finalización: 2023-09-29
+Tareas: Sprint 2: Captura de Información Adicional
+
+Fecha de inicio: 2023-09-26  
+Fecha de finalización: 2023-09-29
+
+Objetivo del Sprint: Ampliar la información capturada de cada trabajador.
+
+ Tareas:
+
+ 1. Captura de edad de cada trabajador.
+
+Descripción:
+- Se implementará un campo para ingresar la edad de cada trabajador.
+
+Criterios de Aceptación:
+- La edad se registra correctamente.
+- Se valida que la edad sea un número válido.
+
+2. Captura de sexo de cada trabajador.
+
+Descripción:
+- Se añadirá un campo para seleccionar el sexo de cada trabajador en el formulario.
+
+Criterios de Aceptación:
+- El sexo se asocia correctamente con el trabajador.
+- La interfaz presenta opciones claras para seleccionar el sexo.
+
+3. Captura de CURP de cada trabajador.
+
+Descripción:
+- Se habilitará un espacio para ingresar la CURP de cada trabajador.
+
+Criterios de Aceptación:
+- La CURP se almacena correctamente.
+- Se valida que la CURP tenga el formato adecuado.
+
+4. Captura de RFC de cada trabajador.
+
+Descripción:
+- Se incluirá un campo para ingresar el RFC de cada trabajador.
+
+Criterios de Aceptación:
+- El RFC se registra correctamente.
+- Se valida que el RFC sea válido.
+
+5. Captura de NSS de cada trabajador.
+
+Descripción:
+- Se incorporará un espacio para ingresar el NSS de cada trabajador.
+
+Criterios de Aceptación:
+- El NSS se guarda correctamente.
+- Se valida que el NSS cumpla con el formato esperado.
+
+Revisión del Sprint:
+
+Logros:
+- Se amplió la información capturada de cada trabajador.
+- Todos los criterios de aceptación fueron cumplidos.
+
+Retrospectiva:
+- Se destacó la importancia de la validación de datos.
+- Se propuso realizar sesiones de prueba más exhaustivas en futuros sprints.
+
+
+
+Sprint 3:
+Fecha de inicio: 2023-09-30
+Fecha de finalización: 2023-11-03
+Tareas: Sprint 3: Recopilación de Estudios de Cada Profesor
+
+Fecha de inicio: 2023-09-30  
+Fecha de finalización: 2023-11-03
+
+Objetivo del Sprint: Centralizar la información académica de cada profesor.
+
+Tareas:
+
+1. Recopilación de los estudios de cada profesor.
+
+Descripción:
+- Se diseñará un formulario para que cada profesor ingrese su historial académico.
+
+Criterios de Aceptación:
+- La información académica se almacena correctamente.
+- Se valida que se ingresen los campos necesarios.
+
+2. Validación en sistema de cada grado de estudios.
+
+Descripción:
+- Se implementará una validación en el sistema para asegurar que los grados de estudio ingresados sean válidos.
+
+Criterios de Aceptación:
+- El sistema valida la información académica según criterios predefinidos.
+- Se generan alertas en caso de información inconsistente.
+
+Revisión del Sprint:
+
+Logros:
+- Se centralizó la información académica de los profesores.
+- La validación en sistema contribuyó a la integridad de los datos.
+
+ Retrospectiva:
+- Se observó una mayor colaboración del equipo en la recopilación de datos académicos.
+- Se propuso automatizar la validación para futuros sprints.
+
+
+
+Sprint 4:
+Fecha de inicio: 2023-11-04
+Fecha de finalización: 2023-11-05
+Tareas: Sprint 4: Verificación de Antigüedad en Sistema
+
+Fecha de inicio: 2023-11-04  
+Fecha de finalización: 2023-11-05
+
+Objetivo del Sprint: Validar la antigüedad de los trabajadores en el sistema.
+
+Tareas:
+
+1. Verificación de antigüedad en sistema.
+
+Descripción:
+- Se desarrollarán scripts para calcular la antigüedad de cada trabajador basándose en la fecha de ingreso.
+
+Criterios de Aceptación:
+- La antigüedad se calcula correctamente para cada trabajador.
+- Se implementa una visualización clara de la antigüedad en la interfaz.
+
+Revisión del Sprint:
+
+Logros:
+- Se logró una verificación precisa de la antigüedad.
+- La interfaz ahora muestra la antigüedad de manera comprensible.
+
+Retrospectiva:
+- El equipo destacó la importancia de la precisión en los cálculos de antigüedad.
+- Se propuso mejorar la presentación de la información en futuros sprints.
+
+
+
+
+Sprint 5:
+Fecha de inicio: 2023-11-06
+Fecha de finalización: 2023-11-08
+Tareas: Sprint 5: Verificación de Nombramientos y Cambios en el Personal Académico
+
+Fecha de inicio: 2023-11-06  
+Fecha de finalización: 2023-11-08
+
+Objetivo del Sprint: Validar la información relacionada con nombramientos y cambios en el personal académico.
+
+Tareas:
+
+1. Verificar nombramiento PTC y cambios en los mismos.
+
+Descripción:
+- Se realizarán comprobaciones en el sistema para asegurar la validez de los nombramientos de Personal Técnico y de Contratación.
+
+Criterios de Aceptación:
+- Los nombramientos PTC se verifican correctamente.
+- Se detectan y registran cambios en los nombramientos.
+
+2. Verificar nombramiento Asig y cambios en los mismos.
+
+Descripción:
+- Se implementará una validación para los nombramientos de Asignatura, asegurando la coherencia de la información.
+
+Criterios de Aceptación:
+- Los nombramientos Asig son verificados y actualizados según los cambios.
+- Se generan informes sobre las modificaciones realizadas.
+
+Revisión del Sprint:
+
+ogros:
+- Se implementó con éxito la verificación de nombramientos.
+- Se detectaron y gestionaron los cambios en los nombramientos de manera eficiente.
+
+Retrospectiva:
+- Se identificaron posibles mejoras en los procesos de validación.
+- El equipo sugirió una mayor documentación para facilitar futuras verificaciones.
+
+
+
+
+Sprint 6:
+Fecha de inicio: 2023-11-09
+Fecha de finalización: 2023-12-02
+Tareas: Sprint 6: Validación de Distinción SIN
+
+Fecha de inicio: 2023-11-09  
+Fecha de finalización: 2023-12-02
+
+Objetivo del Sprint: Validar si cada trabajador cuenta con la distinción Sistema Nacional de Investigadores (SIN).
+
+ Tareas:
+
+ 1. Validar si cuenta con distinción SIN.
+
+Descripción:
+- Se implementará una función de validación para determinar si cada trabajador cuenta con la distinción del Sistema Nacional de Investigadores.
+
+Criterios de Aceptación:
+- La distinción SIN se valida correctamente.
+- Se generan informes de los trabajadores que cuentan con la distinción.
+
+Revisión del Sprint:
+
+Logros:
+- Se completó la validación de la distinción SIN.
+- La información se presenta de manera clara en informes generados.
+
+Retrospectiva:
+- El equipo resaltó la importancia de la distinción SIN para ciertos informes.
+- Se sugirió mantener actualizada la base de datos de la distinción.
+
+
+
+Sprint 7:
+Fecha de inicio: 2023-12-03
+Fecha de finalización: 2024-06-05
+Tareas: Sprint 7: Gestión de Ingreso, Rotación y Bajas del Personal Académico
+
+Duración: Constante
+
+Objetivo del Sprint: Gestionar los procesos de ingreso, rotación y bajas del personal académico de manera continua.
+
+Tareas:
+
+1. Gestión de ingreso del personal académico.
+
+Descripción:
+- Se establecerán procedimientos para la integración de nuevos miembros al personal académico.
+
+Criterios de Aceptación:
+- Los nuevos ingresos se registran de manera efectiva en el sistema.
+- Se proporciona una orientación adecuada a los nuevos miembros.
+
+2. Gestión de rotación del personal académico.
+
+Descripción:
+- Se establecerá un proceso para gestionar cambios de área, roles o responsabilidades dentro del personal académico.
+
+Criterios de Aceptación:
+- Las rotaciones se realizan de manera ordenada y se actualiza la información en el sistema.
+- Se proporciona formación o recursos necesarios para la transición.
+
+3. Gestión de bajas del personal académico.
+
+Descripción:
+- Se implementarán procedimientos para gestionar las bajas de personal académico, ya sea por renuncia o jubilación.
+
+Criterios de Aceptación:
+- Las bajas se registran correctamente en el sistema.
+- Se realiza una revisión de conocimientos y documentos antes de la salida, si es aplicable.
+
+4. Agregar quienes tienen cambio de funcion	
+- Las rotaciones se realizan de manera ordenada y se actualiza la información en el sistema.
+- Se proporciona formación o recursos necesarios para la transición.
+
+5. Quienes son funcionarios con descarga
+- Las rotaciones se realizan de manera ordenada y se actualiza la información en el sistema.
+- Se proporciona formación o recursos necesarios para la transición.
+
+Revisión del Sprint:
+
+Logros:
+- Se establecieron procesos eficientes para la gestión de ingreso, rotación y bajas.
+- La información se mantiene actualizada y coherente.
+
+Retrospectiva:
+- El equipo destacó la importancia de la gestión continua del personal.
+- Se propuso una revisión periódica de los procesos para optimizar la eficiencia.
+
+
